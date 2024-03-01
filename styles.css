@@ -22,7 +22,6 @@ a {
 }
 
 /* change the text to white */
-#top *,
 .white-text {
 	color: #f9faf8;
 }
@@ -38,6 +37,7 @@ a {
 	background-color: #e5e7eb;
 }
 
+/* darker text */
 .dark-text {
 	color: #1f2937;
 }
@@ -187,3 +187,27 @@ a {
 }
 
 /* end of testimonials styling */
+
+/* call to action section styling */
+
+.cta {
+	background-color: #3882f6;
+	width: 100%;
+	border-radius: 4px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.cta * {
+	color: #f9faf8;
+}
+
+.cta .items {
+	justify-content: space-around;
+}
+
+.cta .contact-us-btn {
+	border: 2px solid #f9faf8;
+}
+
+/* end of call to action section */
