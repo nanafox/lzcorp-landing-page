@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #f9faf8;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* set a dark background with color white for texts */
+.dark-bg {
+	background-color: #1f2937;
+}
+
+/* center the container */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.nav-links {
+	list-style-type: none;
+}
+
+.navbar {
+	height: 60px;
+}
+.navbar a:hover {
+	color: #7a879c;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-links {
+	display: flex;
+	gap: 20px;
+}
+
+.header {
+	margin-top: 5rem;
+	min-height: 300px;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-secondary,
+.nav-links {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.logo {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+/* contact us button styling */
+.contact-us-btn {
+	background-color: #3882f6;
+	padding: 12px 32px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.header img {
+	width: 500px;
+	height: 250px;
+}
+
+.hero{
+	max-width: 450px;
+}
+
+/* space the content in the hero section */
+.hero * {
+	margin-bottom: 12px;
+}
+
+/* footer styling */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	padding: 16px;
+}
