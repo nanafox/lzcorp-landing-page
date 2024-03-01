@@ -1,0 +1,6 @@
+*
+!/**/
+!images/*
+!*.html
+!*.css
+!.gitignore
