@@ -2,7 +2,7 @@
 
 ![Lzcorp](images/LzcorpLogo.png)
 
-This is the page of Lzcorp Solutions, a highly esteemed Managed Service
+This is the landing page of Lzcorp Solutions, a highly esteemed Managed Service
 Provider in the IT industry. Their services include but not limited to
 
 - Enterprise Network Configuration and Automation
