@@ -61,6 +61,7 @@ a {
 .nav-links {
 	display: flex;
 	gap: 20px;
+	flex-wrap: wrap;
 }
 
 .header {
@@ -115,3 +116,44 @@ a {
 	margin-top: auto;
 	padding: 16px;
 }
+
+/* services styling */
+
+#services {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* flex the services offered */
+#services .items {
+	margin-top: 10px;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+#services img {
+	width: 300px;
+	border-radius: 12px;
+}
+
+.service {
+	width: 250px;
+	flex: 1;
+}
+
+.service:hover {
+	opacity: 0.8;
+}
+
+#services {
+	text-align: center;
+	color: #1f2937;
+}
+
+#services h2 {
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+/* end of services styling */
