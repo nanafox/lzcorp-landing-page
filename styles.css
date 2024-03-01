@@ -28,9 +28,22 @@ a {
 }
 
 
-/* set a dark background with color white for texts */
+/* set a dark background */
 .dark-bg {
 	background-color: #1f2937;
+}
+
+/* gray background */
+.gray-bg {
+	background-color: #e5e7eb;
+}
+
+.dark-text {
+	color: #1f2937;
+}
+
+.center-text {
+	text-align: center;
 }
 
 /* center the container */
@@ -117,21 +130,31 @@ a {
 	padding: 16px;
 }
 
-/* services styling */
-
-#services {
+.mg-y-30-80 {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
+}
+
+.mg-y-50 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* heading texts */
+.heading {
+	font-size: 36px;
+	font-weight: bolder;
 }
 
 /* flex the services offered */
-#services .items {
+.items {
 	margin-top: 10px;
 	display: flex;
-	gap: 20px;
+	gap: 40px;
 	flex-wrap: wrap;
 }
 
+/* services styling */
 #services img {
 	width: 300px;
 	border-radius: 12px;
@@ -146,14 +169,21 @@ a {
 	opacity: 0.8;
 }
 
-#services {
-	text-align: center;
-	color: #1f2937;
-}
-
-#services h2 {
-	font-size: 36px;
-	font-weight: bolder;
-}
-
 /* end of services styling */
+
+/* testimonials styling */
+
+.testimonial {
+	width: 400px;
+	font-style: italic;
+	flex: 1;
+}
+
+/* author of the testimonial */
+.author {
+	font-size: small;
+	text-align: right;
+	font-weight: 600;
+}
+
+/* end of testimonials styling */
