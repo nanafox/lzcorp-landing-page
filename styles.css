@@ -4,7 +4,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: #f9faf8;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -21,6 +20,13 @@ img {
 a {
 	text-decoration: none;
 }
+
+/* change the text to white */
+#top *,
+.white-text {
+	color: #f9faf8;
+}
+
 
 /* set a dark background with color white for texts */
 .dark-bg {
@@ -40,6 +46,7 @@ a {
 .navbar {
 	height: 60px;
 }
+
 .navbar a:hover {
 	color: #7a879c;
 }
@@ -91,7 +98,7 @@ a {
 	height: 250px;
 }
 
-.hero{
+.hero {
 	max-width: 450px;
 }
 
