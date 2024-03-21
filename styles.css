@@ -24,6 +24,9 @@ img {
 
 a {
 	text-decoration: none;
+}
+
+a, .service {
 	transition: 0.7s ease;
 }
 
@@ -183,7 +186,6 @@ a {
 
 .service:hover {
 	opacity: 0.8;
-	transition: 0.3s ease-in;
 }
 
 /* end of services styling */
